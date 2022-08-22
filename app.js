@@ -106,11 +106,7 @@ app.use('/api/posts', postsApiRoute);
 const usersApiRoute = require('./routes/api/users');
 app.use('/api/users', usersApiRoute);
 
-// Chats Route
-const chatsApiRoute = require('./routes/api/chats');
-app.use('/api/chats', chatsApiRoute);
 
-// Messages Route
 
 
 // Notifications Route
